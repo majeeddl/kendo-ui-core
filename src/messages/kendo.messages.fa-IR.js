@@ -60,9 +60,9 @@
             "insertFile": "Insert file",
             "insertHtml": "درج متن آماده",
             "viewHtml": "View HTML",
-            "fontName": "Select font family",
+            "fontName": "انتخاب نام فونت",
             "fontNameInherit": "(inherited font)",
-            "fontSize": "Select font size",
+            "fontSize": "انتخاب اندازه فونت",
             "fontSizeInherit": "(inherited size)",
             "formatBlock": "Format",
             "formatting": "Format",
@@ -71,7 +71,7 @@
             "style": "Styles",
             "emptyFolder": "Empty Folder",
             "uploadFile": "Upload",
-            "orderBy": "Arrange by:",
+            "orderBy": "مرتب سازی بر اساس :",
             "orderBySize": "Size",
             "orderByName": "Name",
             "invalidFileType": "The selected file \"{0}\" is not valid. Supported file types are {1}.",
@@ -209,7 +209,11 @@
                 "gte": "برابر یا بزرگتر باشد از",
                 "gt": "بزرگتر باشد از",
                 "lte": "کمتر و یا برابر باشد با",
-                "lt": "کمتر باشد از"
+                "lt": "کمتر باشد از",
+                "isnull": "null باشد",
+                "isnotnull": "null نباشد",
+                "isempty": "خالی باشد",
+                "isnotempty": "خالی نباشد"
             },
             "date": {
                 "eq": "برابر باشد با",
@@ -217,7 +221,11 @@
                 "gte": "بعد از یا هم زمان باشد با",
                 "gt": "بعد از",
                 "lte": "قبل از یا هم زمان باشد با",
-                "lt": "قبل از"
+                "lt": "قبل از",
+                "isnull": "null باشد",
+                "isnotnull": "null نباشد",
+                "isempty": "خالی باشد",
+                "isnotempty": "خالی نباشد"
             },
             "enums": {
                 "eq": "برابر باشد با",
@@ -233,7 +241,8 @@
         $.extend(true, kendo.ui.FilterMultiCheck.prototype.options.messages, {
             "checkAll": "انتخاب همه",
             "clear": "پاک کردن",
-            "filter": "فیلتر"
+            "filter": "فیلتر",
+            "selectedItemsFormat": " {0} آیتم انتخاب شده",
         });
     }
 
